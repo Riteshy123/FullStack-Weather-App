@@ -1,17 +1,18 @@
 {
   "name": "weatherapp",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/app.js -e js,hbs",
     "start": "node src/app.js"
   },
-  "author": "thapa technical",
+  "author": "ritesh",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
